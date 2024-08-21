@@ -442,6 +442,7 @@ func (p *MigrateLintParams) AsArgs() ([]string, error) {
 		args = append(args, "--base", p.Base)
 	}
 	if p.GitBase != "" {
+		fmt.Println("GitBase", p.GitBase)
 		args = append(args, "--git-base", p.GitBase)
 	}
 	if p.Latest > 0 {
