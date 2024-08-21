@@ -1,4 +1,4 @@
-module friendliai/atlas-go-sdk
+module github.com/friendliai/atlas-go-sdk
 
 go 1.22
 
