@@ -1,4 +1,4 @@
-module ariga.io/atlas-go-sdk
+module friendliai/atlas-go-sdk
 
 go 1.22
 
