@@ -108,11 +108,12 @@ type (
 		Format    string
 		DevURL    string
 
-		DirURL string
-		Latest uint64
-		Writer io.Writer
-		Base   string
-		Web    bool
+		DirURL  string
+		Latest  uint64
+		Writer  io.Writer
+		Base    string
+		GitBase string
+		Web     bool
 	}
 	// MigrateTestParams are the parameters for the `migrate test` command.
 	MigrateTestParams struct {
@@ -439,6 +440,9 @@ func (p *MigrateLintParams) AsArgs() ([]string, error) {
 	}
 	if p.Base != "" {
 		args = append(args, "--base", p.Base)
+	}
+	if p.GitBase != "" {
+		args = append(args, "--git-base", p.GitBase)
 	}
 	if p.Latest > 0 {
 		args = append(args, "--latest", strconv.FormatUint(p.Latest, 10))
