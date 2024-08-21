@@ -5,7 +5,7 @@ An SDK for building ariga/atlas providers in Go.
 ## Installation
 
 ```bash
-go get -u ariga.io/atlas-go-sdk
+go get -u friendliai/atlas-go-sdk
 ```
 
 ## How to use
@@ -17,7 +17,7 @@ package main
 
 import (
     ...
-    "ariga.io/atlas-go-sdk/atlasexec"
+    "friendliai/atlas-go-sdk/atlasexec"
 )
 
 func main() {
@@ -59,7 +59,7 @@ import (
     "log"
     "os"
 
-    "ariga.io/atlas-go-sdk/atlasexec"
+    "friendliai/atlas-go-sdk/atlasexec"
 )
 
 func main() {

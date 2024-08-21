@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"ariga.io/atlas-go-sdk/atlasexec"
+	"friendliai/atlas-go-sdk/atlasexec"
 )
 
 const testFixtureDir = "testdata"

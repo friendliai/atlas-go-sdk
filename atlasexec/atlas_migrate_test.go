@@ -16,9 +16,9 @@ import (
 	"strings"
 	"testing"
 
-	"ariga.io/atlas-go-sdk/atlasexec"
 	"ariga.io/atlas/sql/migrate"
 	"ariga.io/atlas/sql/sqlcheck"
+	"friendliai/atlas-go-sdk/atlasexec"
 	"github.com/stretchr/testify/require"
 )
 
